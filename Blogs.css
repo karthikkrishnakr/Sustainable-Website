@@ -1,0 +1,48 @@
+.bga {
+  background-image: linear-gradient(
+      to right,
+      rgba(53, 31, 10, 0.3),
+      rgba(28, 15, 2, 0.3)
+    ),
+    url("img10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  padding: 0%;
+  color: black;
+  background: rgba(255, 255, 255, 0.9);
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding-top: 60px;
+}
+.card {
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+}
+img {
+  width: 200px;
+  border-radius: 10px;
+  color: rgba(74, 73, 72, 0.3);
+}
+.a {
+  position: absolute;
+  padding-top: 70px;
+  color: white;
+  font-size: small;
+}
+.b {
+  padding: 20px;
+}
