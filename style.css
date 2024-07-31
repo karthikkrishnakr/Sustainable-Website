@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+body {
+  padding: 1em;
+}
+
+.bg1 {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  border-radius: 20px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.navbar {
+  padding: 20px; /* Add padding to the navbar */
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s, background-color 0.3s; /* Transition for smooth hover effect */
+}
+
+.nav-link:hover {
+  color: #000; /* Change text color on hover */
+  background-color: rgba(
+    95,
+    230,
+    126,
+    0.5
+  ); /* Change background color on hover */
+  border-radius: 5px; /* Optional: add border radius for rounded corners */
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+}
+
+a {
+  text-decoration: none; /* Remove underline from the link itself */
+}
+
+.img1,
+.img2 {
+  width: 250px; /* Ensure the images keep their original size */
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.img1 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(152, 231, 173, 0),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("image1.jpg");
+}
+
+.img2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(152, 231, 173, 0),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("image2.jpg");
+}
