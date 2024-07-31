@@ -1,0 +1,90 @@
+.body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-nav {
+    flex-direction: row;
+    padding-left: 20px; 
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh; /* Ensures the container takes at least the full viewport height */
+}
+.ml {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 120px; /* Adjust the top margin as needed */
+}
+
+
+/* Content */
+.content {
+        padding: 20px;
+        background-color: #e0e0e0;
+        min-height: 60vh;
+        border-radius: 10px;
+        position: relative; /* Ensure the content is positioned relative */
+        background-image: url('https://tsnapi.truescoopnews.com/news/1714655868303.webp'); /* Replace with your image path */
+        background-size: cover; /* Ensure the image covers the entire content area */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        color: white; /* Optional: Adjust text color if needed for better contrast */
+
+}
+
+
+/* Bottom Container */
+.bottom-left {
+    position: absolute;
+    bottom: 6px;
+    left: 10px;
+    color: white;
+    padding: 20px;
+    border: none;
+}
+
+.contain1, .contain2 {
+    position: relative;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.contain1 img, .contain2 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+/* Custom button styles */
+.navbar .btn-custom {
+     /* Primary color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    
+}
+
+
+.navbar .btn-custom:hover {
+    background-color: light greenyellow; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.navbar .btn-custom:focus {
+    color: white;
+    outline: none; /* Remove focus outline */
+}
+
