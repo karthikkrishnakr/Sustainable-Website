@@ -113,8 +113,6 @@
     pointer-events: none;
 }
 .overlay-text {
-    
-
     position: absolute;
     bottom: 20px; /* Adjust the bottom position as needed */
     left: 10%;
