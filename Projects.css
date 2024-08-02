@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
 .bgc {
   background: linear-gradient(
       to bottom,
@@ -37,9 +41,14 @@
   border-radius: 10px;
   padding: 0%;
 }
+.col-lg-8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 p {
   font-size: medium;
-  text-align: justify;
+  text-align: center;
 }
 a {
   color: black;
