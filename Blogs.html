@@ -15,33 +15,81 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="Blogs.css" />
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+      }
+      .navbar {
+        background-color: transparent !important;
+        padding-left: 40px;
+      }
+      .nav-link {
+        color: white !important;
+        transition: color 0.3s ease;
+      }
+      .nav-link:hover {
+        color: gray !important;
+      }
+      .card {
+        width: 15rem;
+        height: 25rem;
+      }
+      .card-img-top {
+        height: 150px;
+      }
+      .card-text {
+        color: white;
+      }
+      .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.5);
+      }
+      .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      }
+      .navbar-toggler:hover,
+      .navbar-toggler:focus {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    </style>
   </head>
   <body>
     <div class="container-fluid bga">
-      <div class="d-flex" style="gap: 60px">
-        <a href="index.html" style="padding-left: 200px"><b>Home</b></a>
-        <a href="about.html"><b>About</b></a>
-        <a href="Projects.html"><b>Projects</b></a>
-        <a href="Blogs.html"><b>Blogs</b></a>
-        <a href="contact.html"><b>Contact Us</b></a>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"><b>About</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Projects.html"><b>Projects</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Blogs.html"><b>Blogs</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><b>Contact Us</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
       <div class="row" style="padding-top: 150px; padding-bottom: 60px">
         <div class="col-lg-3 b">
-          <div class="card" style="width: 15rem; height: 25rem">
-            <img
-              src="img.jpg"
-              class="card-img-top"
-              alt="..."
-              style="height: 150px"
-            />
-            <p class="a">
-              <b>
-                Where passion meets purpose in the right to preserve our
-                planet.</b
-              >
-            </p>
+          <div class="card">
+            <a
+              href="https://www.unops.org/news-and-stories/stories/advancing-climate-action-building-resilience?gad_source=1&gclid=CjwKCAjw1920BhA3EiwAJT3lSW3PjiLu7zY2SOTRSeW2GS6l5_M7bqrzvfqYZ6X3TAqsB9ZoZKDCPhoC9z0QAvD_BwE"
+              target="_blank"
+            >
+              <img src="img.jpg" class="card-img-top" alt="..." />
+            </a>
             <div class="card-body">
-              <p class="card-text" style="color: white">
+              <p class="card-text">
                 "You cannot get through a single day without having an impact on
                 the world around you. What you do makes a difference, and you
                 have to decide what kind of difference you want to make." – Jane
@@ -52,16 +100,15 @@
         </div>
 
         <div class="col-lg-3 b">
-          <div class="card" style="width: 15rem; height: 25rem">
-            <img
-              src="img4.jpg"
-              class="card-img-top"
-              alt="..."
-              style="height: 150px"
-            />
-            <p class="a"><b>Who cares deeply about the world we live in</b></p>
+          <div class="card">
+            <a
+              href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwib1Kz7lM-HAxXCqWYCHUWUPNYYABABGgJzbQ&ase=2&gclid=CjwKCAjwnqK1BhBvEiwAi7o0X_scxEXs8ufIa3t7QfAq2y2p1ClIp9p_mIhrLA8TerzThu1A1HdHFxoCjn4QAvD_BwE&ohost=www.google.com&cid=CAESV-D2k0tUXMvWyWxToswa5spY0jdPA2nc-6HCHD6s07hbpXhLa9PxOdWsI-HeVIiLdLWkg37F6PwfVUTv4D-PKDazZoA3MjawqrWXi5qZNrFK-DMKSJsqvg&sig=AOD64_2H1g6wEMb01Ct4s2adKKIDWYMAiA&q&nis=4&adurl&ved=2ahUKEwjdkKj7lM-HAxUiwjgGHffGNq0Q0Qx6BAgGEAE"
+              target="_blank"
+            >
+              <img src="img4.jpg" class="card-img-top" alt="..." />
+            </a>
             <div class="card-body">
-              <p class="card-text" style="color: white">
+              <p class="card-text">
                 “I felt my lungs inflate with the onrush of scenery—air,
                 mountains, trees, people. I thought, ‘This is what it is to be
                 happy.’” ~Sylvia Plath
@@ -71,16 +118,15 @@
         </div>
 
         <div class="col-lg-3 b">
-          <div class="card" style="width: 15rem; height: 25rem">
-            <img
-              src="img2.jpg"
-              class="card-img-top"
-              alt="..."
-              style="height: 150px"
-            />
-            <p class="a"><b>Climate Action And Goals</b></p>
+          <div class="card">
+            <a
+              href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjlmK34ks-HAxV_qmYCHZVmNVQYABAAGgJzbQ&ase=2&gclid=CjwKCAjwnqK1BhBvEiwAi7o0X4opQnwtBJMnZhPgXvHI8hYWEd4Wg25GNi1oVTgyhdaxJwXrla_nLxoCL3oQAvD_BwE&ohost=www.google.com&cid=CAESV-D2SkwIvA3Yl3RAw5jCDgIv5jW0hbjBpT-xcsDuGo6xBvE-k6OT8HETgA57sd5VIB0NZNICWKwudaqv4W3K4HMhpF02EM2QX6uQ8y-ceGor7Fl-bAENMg&sig=AOD64_3KuDoK-Nwt2DWGQz4nxZceHOwD4A&q&nis=4&adurl&ved=2ahUKEwiipqT4ks-HAxX3zjgGHWDbA-4Q0Qx6BAgFEAE"
+              target="_blank"
+            >
+              <img src="img2.jpg" class="card-img-top" alt="..." />
+            </a>
             <div class="card-body">
-              <p class="card-text" style="color: white">
+              <p class="card-text">
                 "In wilderness is the preservation of the world. You must live
                 in the present, launch yourself on every wave, find your
                 eternity in each moment."
@@ -90,16 +136,15 @@
         </div>
 
         <div class="col-lg-3 b">
-          <div class="card" style="width: 15rem; height: 25rem">
-            <img
-              src="img3.jpg"
-              class="card-img-top"
-              alt="..."
-              style="height: 150px"
-            />
-            <p class="a"><b>How Can We Achieve</b></p>
+          <div class="card">
+            <a
+              href="https://www.unep.org/explore-topics/sustainable-development-goals/why-do-sustainable-development-goals-matter/goal-13"
+              target="_blank"
+            >
+              <img src="img3.jpg" class="card-img-top" alt="..." />
+            </a>
             <div class="card-body">
-              <p class="card-text" style="color: white">
+              <p class="card-text">
                 "Sustainability is no longer about doing less harm. It's about
                 doing more good." – Jochen Zeitz
               </p>
@@ -108,5 +153,16 @@
         </div>
       </div>
     </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz4fnFO9M6sD7NTX9z4xSAeD/NbJ2CFmDZw5/9wYPK7VbZ6hxVOJbGQ/D9"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-5v0rFRxCuRpF51P9a83V9gN0a0aj6zQ9s5O3F2C5So4v2lY9l2GY8l9F+jhczYX4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
