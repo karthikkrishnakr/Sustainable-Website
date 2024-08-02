@@ -2,32 +2,57 @@ html, body {
   height: 100%;
   margin: 0;
 }
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.card {
+  border-radius: 10px;
+  width: 100%;
+}
+.g7 {
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  background-color: transparent !important;
+  padding-left: 40px;
+}
+
+
+.nav-link {
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: black;
+}
 .bgc {
   background: linear-gradient(
       to bottom,
-      rgba(53, 31, 10, 0.3),
-      rgba(28, 15, 2, 0.3)
+      rgba(53, 31, 10, 0.1),  /* Lower opacity for background */
+      rgba(28, 15, 2, 0.1)   /* Lower opacity for background */
     ),
     url("Kiribati.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
+
+
 .d-flex {
   align-items: normal;
   flex-direction: column;
   padding-top: 100px;
   padding-bottom: 30px;
 }
+
 .c1 {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.25);
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
   border-radius: 5px;
 }
+
 .g7 {
   background-image: linear-gradient(
     to bottom,
@@ -41,17 +66,21 @@ html, body {
   border-radius: 10px;
   padding: 0%;
 }
+
 .col-lg-8 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 p {
   font-size: medium;
   text-align: center;
 }
+
 a {
   color: black;
   text-decoration: none;
   padding: 0%;
 }
+
